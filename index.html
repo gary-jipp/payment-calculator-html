@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+  <title>Loan Payment Calculator</title>
 
   <script language="JavaScript">
     const numberWithCommas = function (x) {
@@ -25,7 +25,6 @@
 
         document.calc.pay.value = numberWithCommas(Math.ceil(payment));
       }
-      // payment = principle * monthly interest/(1 - (1/(1+MonthlyInterest)*Months))
     }
 
   </script>
@@ -53,7 +52,7 @@
         </tr>
         <tr>
           <td bgcolor="#eeeee">Monthly Interest Rate</td>
-          <td bgcolor="#aaeeaa" align=center><input type=text name=rate size=10 value=15></td>
+          <td bgcolor="#aaeeaa" align=center><input type=text name=rate size=10></td>
         </tr>
         <tr>
           <td bgcolor="#eeeee">Monthly Payment</td>
